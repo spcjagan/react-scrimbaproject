@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+.App{
+  box-sizing: border-box;
+  margin: 100px 500px;
+  font-family:"Inter";
+  background-color:  #23252C;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info-container{
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-image{
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info-heading{
+   display: flex;
+   justify-content: center;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30.26px;
+   color:#FFFFFF
+}
+
+.info-paragraph{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 400;
+  font-size:12.8px;
+  line-height: 15.49px;
+  color:#F3BF99
+}
+small{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  color:#F5F5F5;
 }
 
-.App-link {
-  color: #61dafb;
+.info-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 25px;
+  
+}
+.info-button1{
+  box-sizing: border-box;
+  margin-right: 17px;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  background-color: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-button2{
+  font-family: "Inter";
+  color:#FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  background-color: #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius:6px;
+}
+
+.about-container{
+  box-sizing: border-box;
+
+}
+
+.about-heading{
+  color:#FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-left: 10px;
+  font-family: "Inter";
+}
+
+.about-paragraph{
+  color:#DCDCDC;
+  margin:8px 10px;
+  font-family:"Inter";
+  font-style:normal;
+  font-weight: 400;
+  font-size:12.24px;
+  line-height:15.36px;
+}
+
+.interests-heading{
+  color:#FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin-left: 10px;
+  font-family: "Inter";
+
+}
+
+.interests-paragraph{
+  color:#DCDCDC;
+  margin:8px 10px;
+  font-family:"Inter";
+  font-style:normal;
+  font-weight: 400;
+  font-size:12.24px;
+  line-height:15.36px;
+
+}
+
+.footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  height:64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitter-icon{
+  width:25px;
+  height:25px;
+  margin-right:17px;
+
+
+}
+
+.facebook-icon{
+  width:25px;
+  height:25px;
+  margin-right:17px;
+
+
+}
+
+.instagram-icon{
+  width:25px;
+  height:25px;
+  margin-right:17px;
+
+}
+
+.github-icon{
+  width:25px;
+  height:25px;
+  margin-right:17px;
+
 }
